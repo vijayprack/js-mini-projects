@@ -1,19 +1,35 @@
+const { count } = require("console");
+
 let inputCaloriesByDay = function(day) {
     switch(day) {
+
         case 'monday':
             return 3500;
+            break;
+
         case 'tuesday':
             return 1500;
+            break;
+
         case 'wednesday':
             return 2500;
+            break;
+
         case 'thursday':
             return 1200;
+            break;
+
         case 'friday':
             return 1700;
+            break;
+
         case 'saturday':
             return 1500;
+            break;
+
         case 'sunday':
             return 2100;
+            break;
     };
 };
 
